@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+body{margin: 0;}
+
+button
+{
+display: block;
+margin-left: auto;
+margin-right: auto;
+font-size: 30px;
+position: relative;
+top: 150px;
+cursor: pointer;
+background-color: salmon;
+}
+
+.rgb
+{
+animation: rainbow 0.1s linear infinite;
+}
+
+@keyframes rainbow 
+{
+0% {background-color: crimson;}
+20% {background-color: chocolate;}
+40% {background-color: yellow;}
+60% {background-color: greenyellow;}
+80% {background-color: aqua;}
+100% {background-color: black;}
+}
+
+img
+{
+display: none;
+margin-left: auto;
+margin-right: auto;
+}
+
+.fobou
+{
+animation: tromos 0.01s linear infinite;
+transition: 1s;
+}
+
+@keyframes tromos 
+{
+0% {filter: invert(20%);}
+20% {filter: invert(40%);}
+40% {filter: invert(60%);}
+60% {filter: invert(80%);}
+80% {filter: invert(100%);}
+100% {filter: invert(120%);}
+}
+</style>
+<body id="body">
+<button id="open">Suprise</button>
+<img id="magos" src="sef.png">
+<script>
+let body = document.getElementById("body");
+let open = document.getElementById("open");
+let magos = document.getElementById("magos");
+const elements = {name:"markos",surname:"seferlis",description:"mastoras tou geliou", Image:"sef.png"};
+let v =  document.createElement('vlasis');
+
+open.onclick = function()
+{
+body.classList.add('rgb')
+open.style.display='none';
+
+magos.style.display='block';
+magos.classList.add('fobou')
+}
+
+
+</script>
+</body>
+</html>
