@@ -1,0 +1,111 @@
+body{margin: 0;}
+.grid1
+{
+display: grid;
+grid-template-columns: auto;
+}
+.colL
+{
+padding: 20px;
+border: 1px solid black;
+background: green;
+}
+.colP
+{
+padding: 30px;
+border: 1px solid black;
+background-color: silver;
+font-size: large;
+text-align: center;
+display: inline block;
+}
+.colF
+{
+padding: 20px;
+border: 1px solid black;;
+}
+.colC
+{
+padding: 20px;
+border: 1px solid black;
+background: black;
+}
+.Logo
+{
+margin-left: auto;
+margin-right: auto;
+border-radius: 50%;
+display: block;
+height: 400px;
+}
+h1
+{
+text-align: center;
+}
+button
+{
+margin-left: auto;
+margin-right: auto;
+display: block;
+font-size: large;
+cursor: pointer;
+}
+form
+{
+border: 1px solid green;
+width: 250px;
+height: 250px;
+text-align: center;
+margin-left: auto;
+margin-right: auto;
+display: block;
+padding: 10px;
+z-index: 1;
+display: none;
+overflow: hidden;
+}
+#RegisterForm
+{
+border: 1px solid green;
+width: 250px;
+height: 250px;
+text-align: center;
+margin-left: auto;
+margin-right: auto;
+display: block;
+padding: 10px;
+z-index: 1;
+display: none;
+overflow: hidden;
+}
+p
+{
+text-align: center;
+font-size: 35px;
+color: green;
+animation: rgb 3s linear infinite;
+}
+@keyframes rgb 
+{
+0% {color: green;}
+20% {color: greenyellow;}   
+40% {color: yellow;}
+60% {color: orange;}
+80% {color: orangered;} 
+100% {color: red;} 
+120% {color: blue;} 
+140% {color: green;}      
+}
+span
+{
+color:  green;
+font-size: 30px;
+cursor: pointer;
+}
+
+a
+{
+text-decoration: none;
+animation: rgb 3s linear infinite;
+}
+
